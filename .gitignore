@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Node dependencies
+node_modules/
+
+# Test output
+test-results/
+screenshots/
+allure-results/
+allure-report/
+
+# Logs
+*.log
+
+# Data
