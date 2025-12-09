@@ -30,7 +30,7 @@ Contact / Support
 
 This repository contains an end-to-end UI framework built using Playwright (TypeScript). It is designed for scalability, maintainability, and ease of adoption for both automation engineers and manual testers transitioning into automation.
 
-# 2. 🛠 Tech Stack
+# 2. Tech Stack
 
 Node.js (v18+)    Runtime environment
 Playwright        Core automation framework
@@ -39,7 +39,6 @@ Dotenv            Secrets and configuration handling
 Playwright Test   Test runner and Jest-style assertions
 
 # 3. Project Structure & File Roles
-
 .
 ├─ data/
 │  └─ user.json
@@ -64,7 +63,7 @@ Playwright Test   Test runner and Jest-style assertions
 ├─ tsconfig.json
 └─ playwright.config.ts
 
-# 4. ⚙ Installation
+# 4. Installation
 
 4.1 Prerequisites
 
