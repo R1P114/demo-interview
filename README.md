@@ -1,30 +1,26 @@
-Playwright TypeScript Automation Framework
+## Playwright TypeScript Automation Framework
 
-Table of Contents
+# Table of Contents
 
-Introduction
+1. Introduction
 
-Tech Stack
+2. Tech Stack
 
-Project Structure & File Roles
+3. Project Structure & File Roles
 
-Installation
+4. Installation
 
-Prerequisites
+5. Running Tests
 
-Install Dependencies
+6. Allure Reporting
 
-Running Tests
+7. Writing Tests (POM Example)
 
-Allure Reporting
+8. Page Object Model (POM)
 
-Writing Tests (POM Example)
+9. Debugging
 
-Page Object Model (POM)
-
-Debugging
-
-Contact / Support
+10. Contact / Support
 
 # 1. Introduction
 
@@ -39,7 +35,7 @@ Dotenv            Secrets and configuration handling
 Playwright Test   Test runner and Jest-style assertions
 
 # 3. Project Structure & File Roles
-.
+
 ├─ data/
 │  └─ user.json
 ├─ pages/
@@ -73,7 +69,7 @@ Git
 
 4.2 Install Dependencies
 
-Install Node dependencies: npm install
+Install Node dependencies: npm install. This will install all necessary packages, including Playwright, dotenv (for environment variables), and Allure Playwright (for test reporting).
 
 Install Playwright browsers (Chromium is mandatory): npx playwright install chromium
 
@@ -166,7 +162,7 @@ export class LoginPage extends BasePage {
 # 9. Debugging
 Action	            Command/Code	                        Notes
 Pause execution	    await page.pause();	                  Insert this line in your test code.
-Run in debug mode	npx playwright test --debug	          Opens Playwright Inspector for step-by-step execution.
+Run in debug mode	  npx playwright test --debug	          Opens Playwright Inspector for step-by-step execution.
 
 # 10. Contact / Support
 
